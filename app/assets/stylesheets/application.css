@@ -104,3 +104,29 @@
   color: #6F6666;
   border-top: 1px solid black;
 }
+
+.contact-div {
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.green-background {
+  background: green;
+}
+
+.inner-contact {
+  padding-top: 2px;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.divider-div {
+  margin-top: 36px;
+  background-color: black;
+  height: 4px;
+}
