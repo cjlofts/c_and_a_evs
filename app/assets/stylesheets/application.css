@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.move-to-left {
+  float:left;
+}
+
+.nav-styling {
+  background-color: green
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 1.8em;
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
+}
+
+.navbar-right li {
+  font-size: 1.1em;
+}
+
+.navbar-right li:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navbar-toggle {
+  background-color: white;
+}
+
+.navbar-toggle:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#van-img {
+  width: 100%;
+  height:120px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.flags {
+  width: 180px;
+  height: 150px;
+  border-radius: 75%;
+  border: 1px black solid;
+  margin-top: 20px;
+}
+
+.flag-div {
+  height: 200px;
+  background-color: green;
+}
+
+.middle-banner {
+  padding-top: 8px;
+  padding-bottom: 6px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.info-div {
+  background-color: green;
+  border-radius: 6px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 8px;
+}
+
+.address-footer {
+  background-color: #D9D7D7;
+  color: #6F6666;
+  border-top: 1px solid black;
+}
